@@ -10,9 +10,9 @@ int Suma::evaluar(const vector<int>& args) {
   if (args.size() != 2) {
     throw invalid_argument("Se esperan exactamente dos argumentos.");
   }
-  // Obtengo los argumentos usando la función de proyección
-  int x = Proyeccion(0).evaluar(args);
-  int y = Proyeccion(1).evaluar(args);
+  // Obtengo los argumentos
+  int x = args[0];
+  int y = args[1];
 
   if (y == 0) {
     return x;

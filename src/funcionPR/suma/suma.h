@@ -1,7 +1,6 @@
 #ifndef SUMA_H
 #define SUMA_H
 
-#include "../proyeccion/proyeccion.h"
 #include "../sucesor/sucesor.h"
 
 /**
