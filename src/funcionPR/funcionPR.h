@@ -21,6 +21,9 @@ class FuncionPR {
 
     // Métodos
     virtual int evaluar(const vector<int>& args) = 0;
+
+    // Contador
+    static int contadorLlamadas;
 };
 
 #endif // FUNCIONESPR_H

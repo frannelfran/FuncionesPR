@@ -6,6 +6,6 @@
  * @return Siempre retorna 0.
  */
 int Cero::evaluar(const vector<int>& args) {
-  llamadas++;
+  FuncionPR::contadorLlamadas++;
   return 0;
 }
