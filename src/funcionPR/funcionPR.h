@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <stdexcept> // Para manejo de excepciones
 
 using namespace std;
 
