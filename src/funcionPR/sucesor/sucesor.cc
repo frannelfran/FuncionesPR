@@ -1,0 +1,14 @@
+#include "sucesor.h"
+
+/**
+ * @brief Método para evaluar la función sucesor.
+ * @param args Vector de argumentos (se espera un solo argumento).
+ * @return Retorna el sucesor del argumento dado (arg + 1).
+ */
+int Sucesor::evaluar(const vector<int>& args) {
+  if (args.size() != 1) {
+    throw invalid_argument("Se espera un solo argumento.");
+  }
+  llamadas++;
+  return args[0] + 1;
+}
