@@ -8,6 +8,10 @@ using namespace std;
 
 static int llamadas = 0;
 
+/**
+ * @class Clase que representa una función primitiva recursiva.
+ */
+
 class FuncionPR {
   public:
     // Constructor y destructor
