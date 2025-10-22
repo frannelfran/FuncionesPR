@@ -14,9 +14,13 @@ all: $(TARGET)
 
 # Compilar todos los .cc directamente en el ejecutable
 $(TARGET): $(SRCS)
-	@echo "Compilando y enlazando..."  
-	$(CXX) $(CXXFLAGS) $^ -o $@       
+	@echo "==============================="
+	@echo "Compilando y enlazando..."
+	@echo "==============================="
+	@$(CXX) $(CXXFLAGS) $^ -o $@
 
 clean:
-	@echo "Eliminando ejecutable..."  
-	rm -f $(TARGET) | rm -rf $(TARGET).dSYM                  
+	@echo "==============================="
+	@echo "Limpiando..."
+	@echo "==============================="
+	@rm -f $(TARGET) | rm -rf $(TARGET).dSYM
