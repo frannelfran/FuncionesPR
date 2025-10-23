@@ -2,6 +2,7 @@
 #define SUMA_H
 
 #include "../sucesor/sucesor.h"
+#include "../proyeccion/proyeccion.h"
 
 /**
  * @class Clase que representa la función suma en funciones primitivas recursivas.

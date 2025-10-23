@@ -11,8 +11,8 @@ int Producto::evaluar(const vector<int>& args) {
     throw invalid_argument("Se esperan exactamente dos argumentos.");
   }
   // Obtengo los argumentos
-  int x = args[0];
-  int y = args[1];
+  int x = Proyeccion(0).evaluar(args);
+  int y = Proyeccion(1).evaluar(args);
 
   if (y == 0) {
     return 0;

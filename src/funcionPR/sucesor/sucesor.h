@@ -2,6 +2,7 @@
 #define SUCESOR_H
 
 #include "../funcionPR.h"
+#include "../proyeccion/proyeccion.h"
 
 /**
  * @class Clase que representa la función sucesor en funciones primitivas recursivas.

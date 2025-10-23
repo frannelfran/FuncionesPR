@@ -11,8 +11,8 @@ int Potencia::evaluar(const vector<int>& args) {
     throw invalid_argument("Se esperan exactamente dos argumentos.");
   }
   // Obtengo los argumentos
-  int base = args[0];
-  int exponente = args[1];
+  int base = Proyeccion(0).evaluar(args);
+  int exponente = Proyeccion(1).evaluar(args);
 
   if (exponente == 0) {
     return 1;
