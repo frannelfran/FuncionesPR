@@ -56,12 +56,15 @@ class FuncionPR {
     FuncionPR() = default;
     ~FuncionPR() = default;
     virtual int evaluar(const vector<int>& args) = 0;
+
+    // Contador
+    static int contadorLlamadas;
 };
 ```
 
 Además existe un contador global compartido entre las unidades de traducción:
 
-- `extern int llamadas` (definido en `src/funcionPR/contador.cc`).
+- `static int contadorLlamadas` contador para almacenar las llamadas a las funciones.
 
 - Este contador se incrementa en cada llamada a `evaluar` de las funciones PR (cada función incrementa `llamadas++` al empezar su evaluación). En `main.cc` se reinicia `llamadas = 0;` antes de evaluar una función para medir las llamadas durante una única evaluación.
 
