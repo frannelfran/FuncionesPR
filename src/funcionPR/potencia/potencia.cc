@@ -15,7 +15,7 @@ int Potencia::evaluar(const vector<int>& args) {
   int exponente = Proyeccion(1).evaluar(args);
 
   if (exponente == 0) {
-    return 1;
+    return Uno().evaluar({});
   } else {
     return Producto().evaluar({base, this->evaluar({base, exponente - 1})});
   }

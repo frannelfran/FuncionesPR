@@ -3,6 +3,7 @@
 
 #include "../funcionPR.h"
 #include "../proyeccion/proyeccion.h"
+#include "../uno/uno.h"
 
 /**
  * @class Clase que representa la función sucesor en funciones primitivas recursivas.

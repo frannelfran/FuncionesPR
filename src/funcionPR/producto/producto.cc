@@ -15,7 +15,7 @@ int Producto::evaluar(const vector<int>& args) {
   int y = Proyeccion(1).evaluar(args);
 
   if (y == 0) {
-    return 0;
+    return Cero().evaluar({});
   } else {
     return Suma().evaluar({x, this->evaluar({x, y - 1})});
   }
