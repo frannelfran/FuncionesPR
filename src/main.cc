@@ -2,7 +2,8 @@
 #include "tools/tools.h"
 
 int main() {
-  cout << "Programa que evalua la función primitiva recursiva potencia: NxN -> N\n" << endl;
+  cout << "Programa que evalua la función primitiva recursiva potencia: potencia: NxN → N" << endl;
+  cout << "Definida como: (x, y) ↦ xʸ" << endl;
   cout << "Pulsar Ctrl+C para salir.\n" << endl;
   try {
     while (true) {
