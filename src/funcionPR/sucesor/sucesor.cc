@@ -10,5 +10,5 @@ int Sucesor::evaluar(const vector<int>& args) {
   if (args.size() != 1) {
     throw invalid_argument("Se espera un solo argumento.");
   }
-  return Proyeccion(0).evaluar(args) + Uno().evaluar({});
+  return Suma().evaluar({Proyeccion(0).evaluar(args), Uno().evaluar({})});
 }

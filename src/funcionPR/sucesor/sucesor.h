@@ -3,6 +3,7 @@
 
 #include "../funcionPR.h"
 #include "../proyeccion/proyeccion.h"
+#include "../suma/suma.h"
 #include "../uno/uno.h"
 
 /**
