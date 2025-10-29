@@ -7,5 +7,5 @@
  */
 int Uno::evaluar(const vector<int>& args) {
   FuncionPR::contadorLlamadas++;
-  return 1;
+  return Sucesor().evaluar({0});
 }

@@ -2,9 +2,6 @@
 #define SUCESOR_H
 
 #include "../funcionPR.h"
-#include "../proyeccion/proyeccion.h"
-#include "../suma/suma.h"
-#include "../uno/uno.h"
 
 /**
  * @class Clase que representa la función sucesor en funciones primitivas recursivas.

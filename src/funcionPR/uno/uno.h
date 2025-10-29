@@ -2,6 +2,7 @@
 #define UNO_H
 
 #include "../funcionPR.h"
+#include "../sucesor/sucesor.h"
 
 /**
  * @class Clase que representa la función constante uno en funciones primitivas recursivas.
