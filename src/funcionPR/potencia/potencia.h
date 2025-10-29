@@ -3,6 +3,7 @@
 
 #include "../funcionPR.h"
 #include "../producto/producto.h"
+#include "../uno/uno.h"
 
 /**
  * @class Clase que representa la función potencia en funciones primitivas recursivas.
